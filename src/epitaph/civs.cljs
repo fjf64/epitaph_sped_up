@@ -50,17 +50,15 @@
 ;;; generate civs
 
 (def all-traits
-  ["adaptable" "adventurous" "aloof" "analytical" "arrogant" "artistic" "avaricious" "anxious"
-   "belligerent" "boisterous" "bold" "brusque"
-   "clannish" "creative" "curious"
+  ["adaptable" "adventurous" "aloof" "analytical" "arrogant" "artistic" "avaricious" "anxious" "belligerent" "boisterous" "bold" "brusque" "clannish" "creative" "curious"
    "daring" "delicate" "devout" "diligent" "diminutive" "duplicitous"
    "elegant" "enduring" "enterprising" "enthusiastic"
    "fearful" "flamboyant"
    "gentle"
    "harmless" "honest" "honorable" "humble"
    "industrious" "intelligent"
-   "kind" "poopy" "tristan-like" "cat-like"
-   "loquacious" "kyle-like" "zach-like"
+   "kind" "poopy" "tristanlike" "catlike"
+   "loquacious" "kylelike" "zachlike"
    "meticulous" "moral"
    "nimble" "noble" "nomadic"
    "obsequious" "obsessive" "outgoing"
