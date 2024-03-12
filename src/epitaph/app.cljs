@@ -49,7 +49,7 @@
       (let [new-stardate (inc (:stardate state))
             civs (mapv #(civ-tick % new-stardate) (:civs state))
             ;; new civs more likely to spawn if all existing civs are "finished"
-            new-civ-chance (if (every? #(not= (:state %) :normal) civs) (/ 1 15) (/ 1 180))
+            new-civ-chance (if (every? #(not= (:state %) :normal) civs) (/ 1 5) (/ 1 2))
             civs (cond-> civs (< (rand) new-civ-chance)
                               (conj (gen-civ new-stardate)))]
         (when-let [pitch (get-notification-pitch (:civs state) civs)]
