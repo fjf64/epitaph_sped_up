@@ -18,7 +18,7 @@
     (+ (/ (* (- x old-min) new-range) old-range) new-min)))
 
 (defonce app-state
-  (let [stardate (+ 2200 (rand-int 700))]
+  (let [stardate (+ 22200 (rand-int 700))]
     (atom {:civs [(gen-civ stardate)]
            :stardate stardate
            :sound-on? true})))
