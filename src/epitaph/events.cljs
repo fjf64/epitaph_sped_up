@@ -65,7 +65,7 @@
     :desc ["In $STARDATE, a combination of $ADJ weather and pestilence caused "
            "a near-total failure of the $CROP crop. Being overreliant on $CROP "
            "cultivation for food, the $CIV then suffered a massive famine which "
-           "brought about the end of $CIV civilization."]
+           "brought about the end of $CIV civilization. bye bye *mews*"]
     :vocab {"$ADJ" ["inclement" "poor"]}}
 
    ;; second-tier tech-related extinction events
